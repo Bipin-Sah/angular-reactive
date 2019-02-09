@@ -1,0 +1,15 @@
+<p>
+  favorite-color works!
+</p>
+
+<label>Name:
+  <input type="text" [formControl]= "name">
+  <p>Value: {{name.value}} </p>
+</label>
+<p>
+  <button (click)="updateName()">Update Name</button>
+</p>
+<!-- Favorite Color:
+
+
+<input type="text" [FormControl]="favoriteColorControl"> -->
